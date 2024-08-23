@@ -9,7 +9,7 @@ import 'package:social/Routes/app_routes.dart';
 
 import '../Modules/Onboarding/splash_screen.dart';
 
-const Transition transition = Transition.cupertino;
+const Transition transition = Transition.native;
 
 class AppPages {
   ///
