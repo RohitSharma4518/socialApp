@@ -12,14 +12,7 @@ import '../Modules/Onboarding/splash_screen.dart';
 const Transition transition = Transition.native;
 
 class AppPages {
-  ///
-  // /// Define Initial Screen Route
-  // ///
   static const initail = AppRoutes.splashScreen;
-
-  ///
-  /// Static list of routes with Page name, Route name & Transition
-  ///
   static final routes = [
     GetPage(
         name: AppRoutes.splashScreen,

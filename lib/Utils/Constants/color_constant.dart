@@ -1,26 +1,6 @@
 import 'package:flutter/material.dart';
 
 class ColorConstants {
-  ///
-  /// Themecolor declarations
-  static const themeColor = MaterialColor(
-    0xff6E9776,
-    {
-      50: Color(0xff6E9776),
-      100: Color(0xff6E9776),
-      200: Color(0xff6E9776),
-      300: Color(0xff6E9776),
-      400: Color(0xff6E9776),
-      500: Color(0xff6E9776),
-      600: Color(0xff6E9776),
-      700: Color(0xff6E9776),
-      800: Color(0xff6E9776),
-      900: Color(0xff6E9776),
-    },
-  );
-
-  ///
-  /// Appcolors declarations
   static const primaryColor = Color(0xff6E9776);
   static const whiteColor = Color(0xFFFFFFFF);
   static const blackColor = Color(0xFF000000);

@@ -60,17 +60,17 @@ class _LoginViewState extends State<LoginView> {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: Container(
-              padding: EdgeInsets.fromLTRB(7.5.w, 5.h, 7.5.w, 6.5.h),
-              decoration: const BoxDecoration(
-                color: ColorConstants.whiteColor,
-                borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(28.0),
-                    topRight: Radius.circular(28.0),
-                    bottomLeft: Radius.circular(0.0),
-                    bottomRight: Radius.circular(0.0)),
-              ),
-              child: SingleChildScrollView(
+            child: SingleChildScrollView(
+              child: Container(
+                padding: EdgeInsets.fromLTRB(7.5.w, 5.h, 7.5.w, 6.5.h),
+                decoration: const BoxDecoration(
+                  color: ColorConstants.whiteColor,
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(28.0),
+                      topRight: Radius.circular(28.0),
+                      bottomLeft: Radius.circular(0.0),
+                      bottomRight: Radius.circular(0.0)),
+                ),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   crossAxisAlignment: CrossAxisAlignment.stretch,
